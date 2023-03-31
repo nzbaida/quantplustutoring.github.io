@@ -1,0 +1,80 @@
+/* Set default font family */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Add background color to header */
+header {
+  background-color: #20B2AA;
+  color: white;
+  padding: 20px;
+}
+
+/* Add border radius and shadow to subject list */
+ul {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style booking button */
+a.w3-button.w3-teal {
+  background-color: #20B2AA;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  display: inline-block;
+}
+
+/* Style booking button on hover */
+a.w3-button.w3-teal:hover {
+  background-color: #008080;
+}
+
+/* Style container divs */
+.w3-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style list items */
+li {
+  margin: 10px 0px;
+}
+
+/* Add color to headings */
+h2 {
+  color: #20B2AA;
+  margin: 20px 0px;
+}
+
+/* Style policies list */
+ul.w3-border {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+/* Style inline Calendly widget */
+.calendly-inline-widget {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  background-color: white;
+}
+
+/* Style Calendly widget height */
+.calendly-inline-widget {
+  height: 700px;
+}
+
+/* Style Calendly widget width for smaller screens */
+@media (max-width: 576px) {
+  .calendly-inline-widget {
+    min-width: 100%;
+  }
+}
