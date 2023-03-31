@@ -16,7 +16,6 @@ header {
     background-position: center center;
     height: 920px;
 }
-*/
 .hd_bg_img {
   background-image: url('../img/stats.jpeg');
   background-repeat: no-repeat;
@@ -26,6 +25,19 @@ header {
   width: 100%;
   position: relative;
   margin-top: -20px;
+}
+*/
+.hd_bg_img {
+  background-image: url("../img/stats.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
 }
 
 
