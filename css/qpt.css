@@ -3,70 +3,19 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* 
-Add background color to header 
-header {
-  background-color: #20B2AA;
-  color: white;
-  padding: 20px;
-} 
-header {
-    background-image: url(/img/stats.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: 920px;
-}
-.hd_bg_img {
-  background-image: url('../img/stats.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 400px;
-  width: 100%;
-  position: relative;
-  margin-top: -20px;
-}
-
 .hd_bg_img {
   background-image: url("../img/stats.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-}
-*/
-.hd_bg_img {
-  background-image: url("../img/stats.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 400px;
-  color: #79a7d3; /* Updated header text color */
+  color: #fff; /* Updated header text color */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   font-family: 'Montserrat', sans-serif; /* Added font family */
-}
-/*
-.hd_bg_img {
-  background-image: url("../img/stats.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 400px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-align: center;
-  position: relative;
+  position: relative; /* Added position */
 }
 
 .hd_bg_img:before {
@@ -76,24 +25,21 @@ header {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
-  z-index: -1;
+  background-color: rgba(0, 0, 0, 0.5); /* Added background color and adjusted opacity */
+  z-index: -1; /* Adjusted z-index */
 }
-*/
+
 .hd_bg_img h1 {
-  font-size: 48px; /* Increased header text size */
+  font-size: 48px;
   margin: 0;
   padding: 0;
 }
 
 .hd_bg_img p {
-  font-size: 24px; /* Increased offering text size */
+  font-size: 24px;
   margin-top: 20px;
   margin-bottom: 0;
 }
-
-
-
 
 /* Add border radius and shadow to subject list */
 ul {
