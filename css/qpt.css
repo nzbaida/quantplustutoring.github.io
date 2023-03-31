@@ -3,7 +3,8 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Add background color to header 
+/* 
+Add background color to header 
 header {
   background-color: #20B2AA;
   color: white;
@@ -26,7 +27,7 @@ header {
   position: relative;
   margin-top: -20px;
 }
-*/
+
 .hd_bg_img {
   background-image: url("../img/stats.jpeg");
   background-size: cover;
@@ -39,6 +40,34 @@ header {
   flex-direction: column;
   text-align: center;
 }
+*/
+
+.hd_bg_img {
+  background-image: url("../img/stats.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: #79a7d3; /* Updated header text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif; /* Added font family */
+}
+
+.hd_bg_img h1 {
+  font-size: 48px; /* Increased header text size */
+  margin: 0;
+  padding: 0;
+}
+
+.hd_bg_img p {
+  font-size: 24px; /* Increased offering text size */
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
 
 
 
