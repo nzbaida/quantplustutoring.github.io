@@ -40,7 +40,7 @@ header {
   flex-direction: column;
   text-align: center;
 }
-
+*/
 .hd_bg_img {
   background-image: url("../img/stats.jpeg");
   background-size: cover;
@@ -54,7 +54,7 @@ header {
   text-align: center;
   font-family: 'Montserrat', sans-serif; /* Added font family */
 }
-*/
+/*
 .hd_bg_img {
   background-image: url("../img/stats.jpeg");
   background-size: cover;
@@ -68,7 +68,7 @@ header {
   text-align: center;
   position: relative;
 }
-/*
+
 .hd_bg_img:before {
   content: "";
   position: absolute;
