@@ -10,7 +10,7 @@ header {
   padding: 20px;
 } */
 header {
-    background-image: url(./img/stats.jpeg);
+    background-image: url(/img/stats.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
