@@ -68,7 +68,7 @@ header {
   text-align: center;
   position: relative;
 }
-
+/*
 .hd_bg_img:before {
   content: "";
   position: absolute;
@@ -79,7 +79,7 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
   z-index: -1;
 }
-
+*/
 .hd_bg_img h1 {
   font-size: 48px; /* Increased header text size */
   margin: 0;
