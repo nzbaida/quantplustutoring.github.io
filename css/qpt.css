@@ -8,7 +8,7 @@ header {
   background-color: #20B2AA;
   color: white;
   padding: 20px;
-} */
+} 
 header {
     background-image: url(/img/stats.jpeg);
     background-repeat: no-repeat;
@@ -16,6 +16,18 @@ header {
     background-position: center center;
     height: 920px;
 }
+*/
+.hd_bg_img {
+  background-image: url('../img/stats.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  margin-top: -20px;
+}
+
 
 
 /* Add border radius and shadow to subject list */
