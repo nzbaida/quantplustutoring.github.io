@@ -3,6 +3,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.slogan {
+  background-color: #20B2AA;
+  color: white;
+}
+
 .hd_bg_img {
   background-image: url("../img/stats.jpeg");
   background-size: cover;
