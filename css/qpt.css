@@ -88,8 +88,12 @@ h1.w3-container-no-rad {
   font-size:10vw;
 } */
 
-.floating {
+.float-right {
   float: right;
+}
+
+.float-left {
+  float: left;
 }
 
 /* Style list items */
