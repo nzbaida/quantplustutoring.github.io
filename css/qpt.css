@@ -88,6 +88,10 @@ h1.w3-container-no-rad {
   font-size:10vw;
 } */
 
+floating {
+  float: right;
+}
+
 /* Style list items */
 li {
   margin: 10px 0px;
