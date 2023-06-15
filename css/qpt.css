@@ -159,6 +159,8 @@ ul.w3-border {
 /* Hide the images by default */
 .mySlides {
   display: none;
+  width: 50%;
+  height: auto;
 }
 
 /* Next & previous buttons */
