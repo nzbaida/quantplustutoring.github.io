@@ -21,20 +21,20 @@ body {
   color: white;
 }
 
-.hd_bg_img {
+/*.hd_bg_img {
   background-image: url("../img/stats.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 400px;
   color: #197ff2; /* Updated header text color */
-  display: flex;
+  /*display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   text-align: center;
   font-family: 'Montserrat', sans-serif; /* Added font family */
-  position: relative; /* Added position */
-}
+  /*position: relative; /* Added position */
+/*}*/
 
 .hd_bg_img:before {
   content: "";
