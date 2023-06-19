@@ -131,7 +131,7 @@ ul.w3-border {
 .calendly-inline-widget {
   border-radius: 0px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0);
-  padding: 10px;
+  padding: 0px;
   background-color: white;
 }
 
