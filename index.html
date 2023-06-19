@@ -9,6 +9,20 @@
     	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700">
     	<link rel="stylesheet" type="text/css" href="./css/qpt.css">
 	<!-- <script type="text/javascript" src="./script.js"></script> -->
+	<style>
+            #leftbox {
+                float:left;
+                background:Red;
+                width:50%;
+                height:280px;
+            }
+            #rightbox{
+                float:right;
+                background:blue;
+                width:50%;
+                height:280px;
+            }
+        </style>
 </head>
 	
 <body class="w3-light-grey">
@@ -32,21 +46,19 @@
 			<li>Econometrics (Undergraduate)</li>
 		</ul>
 		<h1 class="w3-text">Scheduling and Pricing</h1>
-		<div class="row">
-			<div class="column">
+		<div id = "leftbox">
 			<p>Please schedule your session using the calendar</p>
 			<p>Our standard rate is $25 per 30-minute session</p>
 			<p>We will email you to confirm your session.</p>
 			<p>We also offer a 5% discount for prebooking 10 or more hours.</p>
-			</div>
-			<div class="column">
+        </div>
+		<div id = "rightbox">
 			<!-- Calendly inline widget begin -->
-				<div class="calendly-inline-widget float-right" data-url="https://calendly.com/quantplustutoring/tutoring-session?hide_event_type_details=1" style="min-width:320px;height:630px;"></div>
-				<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-				<!-- Calendly inline widget end -->
-				</div>
+			<div class="calendly-inline-widget float-right" data-url="https://calendly.com/quantplustutoring/tutoring-session?hide_event_type_details=1" style="min-width:320px;height:630px;"></div>
+			<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+			<!-- Calendly inline widget end -->
 			</div>
-		</div>
+         </div>
 	</div>
 	
 			<!--<p><h3>"This session was a great confidence builder. I
